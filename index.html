@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Регистрация</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="main">
+  <form action="#">
+    <div class="container">
+      <div class="column">
+
+        <div class="cell">
+          <label for="surname" class="input-label">Фамилия:</label>
+          <input id="surname" name="surname" type="text" placeholder="Введите фамилию">
+        </div>
+        <div class="cell">
+          <label for="name" class="input-label">Имя:</label>
+          <input id="name" name="name" type="text" placeholder="Введите имя">
+        </div>
+        <div class="cell">
+          <label for="patronymic" class="input-label">Отчество:</label>
+          <input id="patronymic" name="patronymic" type="text" placeholder="Введите отчество">
+        </div>
+        <div class="cell">
+          <label for="sex" class="input-label">Пол:</label>
+          <input id="sex" type="text" list="list" name="sex" placeholder="Выберите Ваш пол">
+
+          <datalist id="list">
+            <option value="Мужчина">
+            <option value="Женщина">
+          </datalist>
+        </div>
+        <div class="cell buttons">
+          <div class="column2">
+            <div class="cell2">
+              <button type="button" class="enter-button">Войти</button>
+            </div>
+          </div>
+          <div class="column2">
+            <div class="cell2">
+              <button type="button" class="register-button">Зарегистрироваться</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="column">
+
+        <div class="cell crutch">
+          <div class="column2">
+            <div class="cell2">
+              <input id="checkbox1" type="checkbox" checked>
+              <label for="checkbox1">Признак 1</label>
+            </div>
+          </div>
+          <div class="column2">
+            <div class="cell2">
+              <input id="checkbox2" type="checkbox">
+              <label for="checkbox2">Признак 2</label>
+            </div>
+          </div>
+        </div>
+
+        <div class="cell">
+          <label for="password" class="input-label">Пароль:</label>
+          <input id="password" name="password" type="password" placeholder="Введите Ваш пароль">
+        </div>
+
+        <div class="cell">
+          <label for="email" class="input-label">Email:</label>
+          <input id="email" name="email" type="text" placeholder="Введите Ваш e-mail">
+        </div>
+
+        <div class="cell crutch">
+          <div class="column2">
+            <div class="cell2">
+              <input id="checkbox3" type="checkbox" checked>
+              <label for="checkbox3">Запомнить меня</label>
+            </div>
+          </div>
+          <div class="column2 remember">
+            <div class="cell2 ">
+              <a href="#">Я забыл свой пароль</a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </form>
+</div>
+
+</div>
+</body>
+</html>
