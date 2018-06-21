@@ -60,6 +60,7 @@ class Form {
       field.name = fieldProps.id;
 
       let placeholderOption = document.createElement('OPTION');
+      placeholderOption.selected = true;
       placeholderOption.disabled = true;
       placeholderOption.innerHTML = 'Выберите Ваш пол';
       placeholderOption.value = '';
